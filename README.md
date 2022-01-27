@@ -29,13 +29,16 @@ After this I built 3 classifier models - Decision Tree, Random Forest, and Logis
 All three models performed relatively similarly, however, the Random Forest model was the best one. Below are the AUC curves for all three of the models. The most important and insightful metric for an analysis like this is the precision score. The precision score is the ratio of correctly predicted positive observations to the total predicted positive observations. The precision score is insightful because it allows us to see the false positves aka the counties that do NOT have a Dollar General but which our model has incorrectly classified as having a Dollar General. These counties are ripe for expansion and, according to our model, they fit the profile of a Dollar General county. For our three models, Decision Tree, Log Regression, and Random Forest the precision scores are 80.9%, 81.5%, 84.0% respectively. Therefore Random Forest is the best model for this project. 
 
 Decision Tree ROC
+
 ![chart1](https://github.com/AalokJ/FlatironFP/blob/main/Images/Decision%20Tree%20AUC.png)
 
 Logisitic Regression ROC
-![chart2](./Images/Decision Tree AUC.png)
+
+![chart2](https://github.com/AalokJ/FlatironFP/blob/main/Images/Log%20Regression%20AUC.png)
 
 Random Forest ROC
-![chart2](./Images/Random Forest AUC.png)
+
+![chart2](https://github.com/AalokJ/FlatironFP/blob/main/Images/Random%20Forest%20AUC.png)
 
 # Conclusion
 In conclusion, the idea that Dollar General is specifically choosing to expand in more rural, low income communities is not without merit. However, this project does not provide consclusive proof either way that Dollar General's expansion strategy is targetting these communities. 
