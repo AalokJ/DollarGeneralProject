@@ -29,7 +29,7 @@ After this I built 3 classifier models - Decision Tree, Random Forest, and Logis
 All three models performed relatively similarly, however, the Random Forest model was the best one. Below are the AUC curves for all three of the models. The most important and insightful metric for an analysis like this is the precision score. The precision score is the ratio of correctly predicted positive observations to the total predicted positive observations. The precision score is insightful because it allows us to see the false positves aka the counties that do NOT have a Dollar General but which our model has incorrectly classified as having a Dollar General. These counties are ripe for expansion and, according to our model, they fit the profile of a Dollar General county. For our three models, Decision Tree, Log Regression, and Random Forest the precision scores are 80.9%, 81.5%, 84.0% respectively. Therefore Random Forest is the best model for this project. 
 
 Decision Tree ROC
-![chart1](./Images/Decision Tree AUC.png)
+![chart1](https://github.com/AalokJ/FlatironFP/blob/main/Images/Decision%20Tree%20AUC.png)
 
 Logisitic Regression ROC
 ![chart2](./Images/Decision Tree AUC.png)
@@ -43,7 +43,7 @@ In conclusion, the idea that Dollar General is specifically choosing to expand i
 # Future Work
 In the future I think there are three main extensions that can be pursued...
 1) Use Time Series data to model Dollar General's expansion over time
-2) Use zip code level data instead of county data as a zip code is a more minute unit of measurement
+2) Use Zip Code level data instead of county data as a zip code is a more minute unit of measurement
 3) Deploy a Streamlit web app to display data and visualizations
 
 ## Repository Structure
