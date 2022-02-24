@@ -9,9 +9,10 @@ Well, Dollar General has been accused of being [predatory](https://slate.com/bus
 My motivation for this project is to investigate how Dollar General has choosen to open its stores throughout the country and to shed light ont the accusations that Dollar General is targetting rural and poor Americans in particular. 
 
 I have choosen Dollar General for a couple reasons:
-1. It has over 18,000 stores and is prevalant in almost every state in the country
+1. It has over 18,000 stores and is prevalant in almost every state in the country.
 2. It continues to grow amidst a retail climate that has seen many large players shrink their physical footprint - with plans for 1000 more stores in the next 4 years.
 3. Their business has attracted the attention of media houses like CNN, WSJ, NYT, The Guardian, etc. 
+4. It has been touted as the company that will "go where Walmart won't".
 
 # Business Objective
 From a business perspective this project has applications for a wide range of roles and industries. The findings apply to Dollar General itself, but also to its competitors who have failed to expand at the pace that Dollar General has. By setting out to categorize counties into those having Dollar Generals or not, this project is able to create a profile of what a Dollar General county looks like compared to a non Dollar General county. Based on the data the two different types of counties can be profiled by demographics, income, income per capita, occupation, occupational industry, gender, and many more features. This can also be insightful for private equity firms, consulting firms, and research firms interested in this space. 
